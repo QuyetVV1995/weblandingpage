@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -11,4 +11,22 @@ html {
     font-size: 20px;            /* mac dinh la 16px */
     text-rendering: optimizeLegibility;
 
+}
+
+/* -------------------------------------------- */
+/* -------------------HEADR------------------- */
+/* -------------------------------------------- */
+header{
+    background-image: url("../img/background4.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /*vh = view height*/
+    background-attachment: fixed;
+}
+.logo{
+    width: 350px;
+}
+.row{
+    width: 1000px;
+    margin: 0 auto;
 }
