@@ -67,6 +67,7 @@ h1{
 }
 
 h2{
+    margin-top: 70px;
     color: #e67e22;
     font-size: 300%;
     font-weight: 700;
@@ -249,4 +250,51 @@ header{
 
 .product-box .btn{
     margin-left: 130px;
+}
+
+/* -------------------------------------------- */
+/* -------------------Testimonials SECTION------------------- */
+/* -------------------------------------------- */
+
+.testimonials-section{
+    background-image: linear-gradient(45deg,rgba(2,33,64,0.8) 55% ,rgba(45,95,93,0.85)),  url('../img/background2.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonials-section h2{
+    margin-bottom: 50px;
+}
+
+blockquote{
+    width: 95%;
+    position: relative;
+    font-style: italic;
+    line-height: 130%;
+    color: white;
+    font-size: 150%;
+}
+
+blockquote::before{
+    content: '\0022';
+    display: block;
+    font-size: 200%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+cite{
+    display: block;
+    color: #6b95bd;
+    margin-top: 25px;
+}
+
+cite img{
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #265077;
+    vertical-align: middle;
+    margin-right: 5px;
 }
