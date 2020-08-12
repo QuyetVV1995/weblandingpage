@@ -1,4 +1,6 @@
+
 /* code responsive */
+
 /*Big tabled to 1200px*/
 @media only screen and (max-width:1200px){
     html{
@@ -68,6 +70,7 @@
 }
 /*Small phones to small tablets*/
 @media only screen and (max-width:767px){
+<<<<<<< HEAD
     .col{
         width: 100%;
     }
@@ -346,10 +349,14 @@
         margin-bottom: 20px;
     }
 
+=======
+    
+>>>>>>> bf74396e9932f952c2f2c866609437108dacc6cd
 }
 
 /*Small phones from 0 to 480px*/
 @media only screen and (max-width:480px){
+<<<<<<< HEAD
     html{
     font-size: 12px;
     }
@@ -390,3 +397,7 @@
       margin-left: 5%;  
     }
 }
+=======
+    
+}
+>>>>>>> bf74396e9932f952c2f2c866609437108dacc6cd
