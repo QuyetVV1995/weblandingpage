@@ -22,6 +22,22 @@ $(document).ready(
             }, 700);
             event.preventDefault();
           });
+
+        // mobile navigation
+        $('.mobile-nav-icon').click(
+            function(){
+                $('.main-nav').slideToggle(200);    // display none <-> block
+
+                if($('.mobile-nav-icon').hasClass('fa-bars')){
+                    $('.mobile-nav-icon').removeClass('fa-bars');
+                    $('.mobile-nav-icon').addClass('fa-times');
+                } else{
+                    $('.mobile-nav-icon').removeClass('fa-times'); 
+                    $('.mobile-nav-icon').addClass('fa-bars');
+                }
+                
+            }
+        )
     }
 )
 
